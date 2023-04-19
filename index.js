@@ -17,7 +17,6 @@ const fun = (request, response) => {
     message += "</ul";
 
     response.send(message);
-    console.log(names[2]);
 };
 
 app.get('/students', fun);
